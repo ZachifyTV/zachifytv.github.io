@@ -159,6 +159,7 @@ h1 {
   transition: transform .15s ease, border-color .15s ease;
 }
 .long:hover { transform: translateY(-2px); border-color: var(--yellow); }
+.long + .long { margin-top: 10px; }
 .long .play { flex: none; width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center; background: var(--coral); color: #fff; }
 .long .txt { min-width: 0; }
 .long strong { display: block; font-size: 1rem; line-height: 1.3; }
@@ -215,9 +216,9 @@ a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
 
   <section aria-labelledby="long-title">
     <p class="label" id="long-title">Long-form on YouTube</p>
-    <a class="long" href="https://www.youtube.com/watch?v=WGmEpugKWCE">
+    <a class="long" href="https://www.youtube.com/watch?v=TOJGlY5AyDc">
       <span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-      <span class="txt"><strong>How did gangs become a thing?</strong><span>Animated history, every source linked</span></span>
+      <span class="txt"><strong>You Wouldn't Survive Victorian London</strong><span>Animated history, every source linked</span></span>
     </a>
   </section>
 
