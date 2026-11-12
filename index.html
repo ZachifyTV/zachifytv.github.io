@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Zachify · Links</title>
 <meta name="description" content="Animated stories starring Zach. Big ideas, strange situations, real numbers.">
-<meta name="theme-color" content="#2a2238">
+<meta name="theme-color" content="#0b1f4d">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Zachify">
 <meta property="og:description" content="Animated stories starring Zach. Big ideas, strange situations, real numbers.">
@@ -18,19 +18,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
 <style>
-/* Zachify Print palette (long-form look): plum-indigo shadows, sunset glow, warm cream, brand yellow and coral */
+/* Zachify blue palette: navy shadows, royal-blue glow, warm cream, brand yellow and coral (matches the Z logo and banner) */
 :root {
-  --plum-deep: #1a1226;
-  --plum: #2a2238;
-  --indigo: #4a3a72;
-  --sunset: #d0786a;
-  --peach: #f6b07a;
+  --plum-deep: #050f2e;
+  --plum: #0b1f4d;
+  --indigo: #164ab8;
+  --sunset: #3d8bff;
+  --peach: #8cc4ff;
   --cream: #f4efe6;
-  --muted: #cdbfd6;
+  --muted: #bccbe6;
   --yellow: #ffd34d;
   --coral: #ff5a36;
-  --surface: rgba(42, 34, 56, .78);
-  --line: rgba(246, 176, 122, .22);
+  --surface: rgba(11, 31, 77, .78);
+  --line: rgba(140, 196, 255, .22);
   --on-yellow: #2a1a05;
   --display: "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif;
   --body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -46,7 +46,7 @@ body {
   line-height: 1.5;
   color: var(--cream);
   background:
-    radial-gradient(90% 45% at 50% 0%, rgba(208, 120, 106, .55) 0%, rgba(74, 58, 114, .35) 45%, transparent 75%),
+    radial-gradient(90% 45% at 50% 0%, rgba(61, 139, 255, .50) 0%, rgba(22, 74, 184, .35) 45%, transparent 75%),
     linear-gradient(180deg, var(--plum) 0%, var(--plum-deep) 70%);
   background-attachment: fixed;
 }
@@ -78,7 +78,7 @@ body {
   border-radius: 50%;
   margin-top: -54px;
   border: 4px solid var(--plum);
-  box-shadow: 0 0 0 3px var(--yellow), 0 8px 24px rgba(255, 90, 54, .35);
+  box-shadow: 0 0 0 3px var(--yellow), 0 8px 24px rgba(61, 139, 255, .45);
   overflow: hidden;
   background: var(--indigo);
   position: relative;
@@ -91,7 +91,7 @@ h1 {
   line-height: 1;
   letter-spacing: .02em;
   color: var(--yellow);
-  text-shadow: 0 3px 0 #b5401f;
+  text-shadow: 0 3px 0 #08163f;
   margin: 14px 0 6px;
 }
 .tagline { margin: 0; max-width: 34ch; text-wrap: balance; }
@@ -117,7 +117,7 @@ h1 {
 .series {
   border-radius: 20px;
   border: 1px solid var(--line);
-  background: linear-gradient(160deg, rgba(208, 120, 106, .28) 0%, var(--surface) 60%);
+  background: linear-gradient(160deg, rgba(61, 139, 255, .26) 0%, var(--surface) 60%);
   padding: 18px;
   display: flex; flex-direction: column; gap: 14px;
 }
@@ -176,16 +176,13 @@ a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
 <body>
 <main class="wrap">
   <header class="head">
-    <div class="banner"><img src="banner.jpg" alt="The Zachify cast standing in four different worlds"></div>
-    <div class="avatar"><img src="zach.jpg" alt="Zach"></div>
+    <div class="banner"><img src="banner.jpg" alt="ZACHIFY in yellow letters on a textured blue background"></div>
+    <div class="avatar"><img src="logo.jpg" alt="Zachify Z logo"></div>
     <h1>ZACHIFY</h1>
     <p class="tagline">Animated stories starring Zach. Big ideas, strange situations, real numbers.</p>
     <nav class="icons" aria-label="Zachify on social media">
       <a class="icon" href="https://www.youtube.com/channel/UCvvUW-Lp43zlGJedqKMLjyA?sub_confirmation=1" aria-label="YouTube">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z"/></svg>
-      </a>
-      <a class="icon" href="https://www.tiktok.com/@zachifytv" aria-label="TikTok">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 3h-3.1v12.2a2.6 2.6 0 1 1-2.6-2.6c.3 0 .6 0 .9.1V9.6a5.7 5.7 0 1 0 4.8 5.6V9a7.3 7.3 0 0 0 4.3 1.4V7.3A4.3 4.3 0 0 1 16.6 3z"/></svg>
       </a>
       <a class="icon" href="https://www.instagram.com/zachsadventure_/" aria-label="Instagram">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7.3A4.7 4.7 0 1 0 16.7 12 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm6-7.9a1.1 1.1 0 1 1-1.1-1.1A1.1 1.1 0 0 1 18 7.1zM21.9 8.2a5.4 5.4 0 0 0-1.5-3.8 5.4 5.4 0 0 0-3.8-1.5C15.1 2.8 8.9 2.8 7.4 2.9a5.4 5.4 0 0 0-3.8 1.5 5.4 5.4 0 0 0-1.5 3.8c-.1 1.5-.1 7.7 0 9.2a5.4 5.4 0 0 0 1.5 3.8 5.4 5.4 0 0 0 3.8 1.5c1.5.1 7.7.1 9.2 0a5.4 5.4 0 0 0 3.8-1.5 5.4 5.4 0 0 0 1.5-3.8c.1-1.5.1-7.7 0-9.2zM19.8 19a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4A3 3 0 0 1 5.8 19c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3a3 3 0 0 1 1.7-1.7c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19.8 8.4c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.3z"/></svg>
